@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="images/logo.png">
+    
+    <script src="java.min.js"></script>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="flickity.css">
+    <link rel="stylesheet" href="media.css">
+    <title>SM Bakers</title>
+</head>
+
+<body>
+
+    <section class="Navbar-Menu" id="Navbar-Menu-Id">
+        <div class="menu">
+            <div class="leftside">
+                <img src="images/logo.png" alt="logo.png">
+            </div>
+            <div class="rightside" id="rightside">
+                <nav class="Icons">
+                    <a href="#Navbar-Menu-Id" class="navicon">Home</a>
+                    <a href="#Second-sec-id" class="navicon">About Us</a>
+                    <a href="#menu-id" class="navicon">Menu</a>
+                    <a href="#Gallery-Id" class="navicon">Gallery</a>
+                    <a href="#footerid" class="navicon">Contact</a>
+                    <i class="fas fa-times-circle" id="cross" onclick="Hidemenu()"></i>
+
+                    <div class="social">
+                        <li id="Border"></li>
+                        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </nav>
+            </div>
+            <div class="menubar" >
+                <div class="line" onclick="Togglebar()"></div>
+                <div class="line" onclick="Togglebar()"></div>
+                <div class="line" onclick="Togglebar()"></div>
+            </div>
+        </div>
+        <div class="heading" >
+            <h2>Selamat Datang di Baker's Kitchen!</h2>
+            <p>Kami menyediakan roti dan kue segar dengan bahan berkualitas, dibuat dengan cinta untuk memenuhi selera Anda setiap hari </p>
+            <a href="https://wa.me/6285886031844" target="_blank">
+                <i class="fal fa-phone-rotary"></i> Pesan sekarang
+            </a>
+            
+        </div>
+        <div class="Scroll-Arrow" id="topbutton">
+            <a href="#"><i class="fal fa-arrow-up"></i></a>
+         </div>
+    </section>
+
+    <section class="second-Sec" id="Second-sec-id">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mx-auto second-sec">
+                    <img src="https://images.pexels.com/photos/8651023/pexels-photo-8651023.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"class="container-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 mx-auto second-sec">
+                    <h2><span id="Welcome">Selamat datang di</span> Baker's Kitchen</h2>
+                    <p>Tidak ada orang yang menyukai atau mencari rasa sakit demi rasa sakit itu sendiri, 
+                        tetapi karena kadang-kadang keadaan tertentu membuat kerja keras dan rasa sakit membawa kebahagiaan besar. 
+                        Contohnya, siapa di antara kita yang menikmati olahraga berat hanya demi capeknya?</p>
+                    <a href="#">About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="MenuSection" id="menu-id">
+        <h1>Menu Kami</h1>
+        <p>Produk Roti Segar dengan Bahan-Bahan Terbaik</p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.Z3H6N3_2j1osWIh385zOCwHaEK&pid=Api&P=0&h=220" alt=""
+                        class="container-fluid">
+                    <h3>Cake Rusk</h3>
+                    <h6>Rp75.000<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://i.pinimg.com/736x/13/91/55/139155717db94527eccae31d7cce7987--crunch-cake-enter-to-win.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Carmel Crunch cake</h3>
+                    <h6>Rp300.000<span id="Weight"> 2.5 Pound</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://i.pinimg.com/originals/8d/7b/c5/8d7bc5a4065d02828720c255043fb9be.jpg" alt=""
+                        class="container-fluid">
+                    <h6>Rp75.000<span id="Weight">Per Bucket</span></h6>
+                    <h6>$5.00<span id="Weight">Per Bucket</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.tEh81Df_RHSew7_FVwEdgQHaF1&pid=Api&P=0&h=220" alt=""
+                        class="container-fluid">
+                    <h3>Chocolate and Wallnut Biscuits</h3>
+                    <h6>Rp525.000<span id="Weight">Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="http://cdn.shopify.com/s/files/1/0152/8019/files/15_-_Final_grande.jpg?1782" alt=""
+                        class="container-fluid">
+                    <h3>Julab Jaman (Brown)</h3>
+                    <h6>Rp120.000<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://www.giftbag.ae/wp-content/uploads/2022/07/SUGA024.jpg" alt=""
+                        class="container-fluid">
+                    <h3>KitKat $ MnM Molten Dessert Box</h3>
+                    <h6>Rp75.000<span id="Weight"> Per Box</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://cakeoclock.pk/wp-content/uploads/2022/06/Milky-Malt.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Milky Malt cake</h3>
+                    <h6>Rp225.000<span id="Weight"> 2.5 Pound</span></h6>
+                    <a href="#">Order</a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.s9pDMYArqXYHQ5vzUMJcKwHaGs&pid=Api&P=0&h=220" alt=""
+                        class="container-fluid">
+                    <h3>Mix Nimco</h3>
+                    <h6>Rp30.000<span id="Weight"> Per Pack</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://images.unsplash.com/photo-1584796101179-52cfea2e6f52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bG9hZiUyMG9mJTIwYnJlYWR8ZW58MHx8MHx8&w=1000&q=80" alt=""
+                        class="container-fluid">
+                    <h3>Fresh Bread</h3>
+                    <h6>Rp30.000<span id="Weight"> Per Pack</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://s.marketwatch.com/public/resources/images/MW-BS913_butter_MG_20140120151235.jpg"
+                        alt="" class="container-fluid">
+                    <h3>Pure Butter</h3>
+                    <h6>Rp750.000<span id="Weight"> Per Kg</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src=" https://cdn.britannica.com/94/151894-050-F72A5317/Brown-eggs.jpg" alt=""
+                        class="container-fluid">
+                    <h3>Desi Eggs</h3>
+                    <h6>Rp60.000<span id="Weight"> per Dozen</span></h6>
+                    <a href="#">Order</a>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12 mx-auto Bakery-menu">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/319/276/863/cheese-milk-cheese-milk-wallpaper-preview.jpg" alt="" class="container-fluid">
+                    <h3>Organic Milk</h3>
+                    <h6>Rp75.000<span id="Weight"> Per liter</span></h6>
+                    <a href="#">Order</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="Gallery" id="Gallery-Id">
+        <h1>Gallery</h1>
+        <p>Temukan berbagai kreasi terbaik kami, mulai dari roti segar hingga kue cantik, 
+            semua dibuat dengan penuh perhatian dan kualitas tinggi. Nikmati setiap momen melalui gambar-gambar ini!</p>
+
+        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+           
+            <div class="carousel-cell">
+            <img src="https://images.unsplash.com/photo-1605807646983-377bc5a76493?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80">
+            <a href="#">Ice Cake</a>
+           
+            </div>
+           
+            <div class="carousel-cell">
+            <img src="https://media.istockphoto.com/photos/indian-sweets-in-a-plate-includes-gulab-jamun-rasgulla-kaju-katli-picture-id1054228718?k=20&m=1054228718&s=612x612&w=0&h=OFcioOdcbacinr2F7M0hULoAr3egWnU_BIt5XLmznf0=">
+                <a href="#">Sweets</a>
+              
+            </div>
+           
+            <div class="carousel-cell">
+            <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29va3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80">
+                <a href="#">Biscuits</a>
+               
+            </div>
+           
+            <div class="carousel-cell">
+            <img src="https://w0.peakpx.com/wallpaper/754/603/HD-wallpaper-chocolate-ice-cream-close-up-sweets-ice-cream-balls-ice-cream.jpg">
+                <a href="#">Ice Cream</a>
+               
+            </div>
+            <div class="carousel-cell">
+            <img src="https://c4.wallpaperflare.com/wallpaper/317/423/666/chocolate-4k-hd-pc-download-wallpaper-preview.jpg">
+                <a href="#">Chocolate</a>
+               
+            </div>
+        </div>
+</section>
+
+
+<section class="footer" id="footerid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>About Us</h3>
+                <p>Bersertifikat ISO, Halal, & HACCP, disetujui oleh Otoritas Pangan Sindh, dan dibuat dengan standar kebersihan & kesehatan tertinggi, menjaga nilai-nilai kami yang sudah lama dalam hal kualitas & pelayanan terbaik.</p>
+                <hr class="w-25 mx-auto text-dark">
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://gmail.google.com" target="blank"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.pinterest.com/" target="blank"><i class="fab fa-pinterest"></i></a>
+                <a href="https://instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Hubungi Kami</h3>
+                <p>Jl. Lkr. Utara, Kayuapu Kulon, Gondangmanis, Kec. Bae, Kabupaten Kudus, Jawa Tengah 59327</p>
+                <hr class="w-25 mx-auto text-dark">
+                <p>Jam Operasional : <br> 
+                    Buka dari 6 Pagi hingga 10 Malam <br>
+                    Senin sampai Senin <br>
+                Telepon: 085-886-031-844</p>     
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6663.024765769739!2d110.85900342909962!3d-6.787100952925842!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70c52d5ac49401%3A0x98bc171685ba90ea!2sUniversitas%20Muria%20Kudus!5e0!3m2!1sid!2sid!4v1730636993598!5m2!1sid!2sid" 
+                width="370" 
+                height="200" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <hr class="w-50 mt-5 mx-auto text-dark">
+    <div class="container last-footer" >
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4 id="last-logo">Backer's kitchen</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4><span id="Name">Backer's kitchen</span> © Privacy Policy</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12 mx-auto Copyright">
+                <h4>Design & Developed by <span id="Name">Ilyas Nur Hidayat</span></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
